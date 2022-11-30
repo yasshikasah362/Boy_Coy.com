@@ -1,0 +1,1077 @@
+@font-face {
+    font-family: "Bahnschrift Regular " ;
+    src: url(D:\fonts);
+    font-weight: 480;
+}
+@font-face {
+    font-family: "Bahnschrift " ;
+    src: url(D:\fonts);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Bahnschrift Bold " ;
+    src: url(D:\fonts );
+    font-weight: 600;
+}
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Bahnschrift";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#section1{
+    height: 100vh;
+    width: 100vw;
+    background-color:  #f15d58;;
+}
+#section2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #dcddcd;
+}
+#section3{
+    height: 100vh;
+    width: 100vw;
+    background-color:  #a68f58;;
+}
+#section4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #363635;
+}
+#main>#imagec{
+   position: absolute;
+    right: 0%;
+    z-index: 999;
+    
+}
+#section1>#image{
+     height: 15%;
+     width: 20%;
+    
+     position: absolute;
+     top: 2%;
+     left: 35%;
+     overflow: hidden;
+}
+#section1>#image>#right{
+    top: 67%;
+    left: 74%;
+    position: absolute;
+   
+}
+@-webkit-keyframes hand{
+    0%{-webkit-transform: translateY(-40px) rotateZ(20deg);transform: translateY(-40px) rotateZ(20deg);
+
+    }
+    50%{-webkit-transform: translateY(0px) rotateZ(-0deg);transform: translateY(0px) rotateZ(-0deg);
+        
+    }
+    100%{-webkit-transform: translateY(-40px) rotateZ(30deg);transform: translateY(-40px) rotateZ(30deg);
+        
+    }
+}
+@keyframes hand{
+    0%{-webkit-transform: translateY(-40px) rotateZ(20deg);transform: translateY(-40px) rotateZ(20deg);
+
+    }
+    50%{-webkit-transform: translateY(0px) rotateZ(-0deg);transform: translateY(0px) rotateZ(-0deg);
+        
+    }
+    100%{-webkit-transform: translateY(-40px) rotateZ(30deg);transform: translateY(-40px) rotateZ(30deg);
+        
+    }
+}
+
+#section1>#image>#left{
+    top: 47%;
+    left: 13%;
+    position: absolute;
+    -webkit-animation: hand 5s cubic-bezier(0.19,1,0.22,1) 0s infinite both;
+            animation: hand 5s cubic-bezier(0.19,1,0.22,1) 0s infinite both;
+}
+#section1>#nav_left{
+    height: 17%;
+    width: 34%;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+   
+}
+#section1>#nav_left>img{
+    height: 2%;
+    width: 10%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#section1>#nav_right{
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    left: 50%;
+    position: absolute;
+    height: 2%;
+    top: 2.3%;
+    
+}
+#section1>#nav_right>a{
+    text-decoration: none;
+   
+    font-size: 1.5vw;
+    color: black;
+    margin: 30px;
+   
+}
+#section1>#nav_right>a:hover{
+    border-radius: 50px;
+    background-color: white;
+    color:   rgb(243, 94, 94);;
+}
+#section1>#left_div{
+    height: 10%;
+    width: 22%;
+    top: 8%;
+    position: absolute;
+    left: 10%;
+}
+#section1>#left_div  h2{
+    text-align: center;
+    font-size: 5vw;
+}
+#section1>#left_div h2:hover{
+    color: white;
+}
+#section1>#left_div p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+    color: white;
+}
+#section1>#left_div a{
+    text-decoration: none;
+    color: white;
+  font-size: 1.5vw;
+    
+}
+#section1>#left_div img{
+    position: absolute;
+    top: 72%;
+    left: 20%;
+}
+#section1>#right_div{
+    height: 10%;
+    width: 22%;
+    top: 8%;
+    position: absolute;
+    left: 60%;
+   
+}
+#section1>#right_div>#facebook1{
+    position: absolute;
+    left: .5%;
+    opacity: 0;
+    
+}
+#section1>#right_div>#google1{
+    position: absolute;
+    left: .5%;
+    opacity: 0;
+    
+}
+#section1>#right_div>#google1:hover{
+    opacity: 1;
+}
+#section1>#right_div>#facebook1:hover{
+    opacity: 1;
+}
+
+#section1>#right_div>#rightstrip{
+   position: absolute;
+   top: 26%;
+   left: 32%;
+}
+#section1>#right_div>#twitter{
+    top: 60%;
+    position: absolute;
+    left: 20%;
+}
+#section1>#right_div>#twitter1{
+    top: 60%;
+    position: absolute;
+    left: 20%;
+    opacity: 0;
+    z-index: 999;
+}
+#section1>#right_div>#twitter1:hover{
+    opacity: 1;
+}
+#section1>#right_div>#leftstrip{
+    position: absolute;
+   top: 50%;
+   left: 23%;
+}
+#section1>#cloud{
+    width: 100%;
+    height: 7%;
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    overflow: hidden;
+  
+}
+#section1>img{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+
+
+#section2 #cloud2{
+    height: 20%;
+    width: 100%;
+       
+}
+#section2 #cloud2>img{
+    z-index: 999;
+    position: relative;
+
+}
+#section2>#nav_part1{
+    height: 10%;
+    width: 30%;
+    margin-top: 6%;
+    margin-left: 4%;
+    border-bottom: 2px solid black;
+    
+}
+#section2>#battery{
+    position: absolute;
+    left: 15%;
+    margin-top: 5%;
+
+}
+#section2>#download{
+    position: absolute;
+    margin-top: 12.5%;
+    left: 15%;
+}
+#section2>#download1{
+    position: absolute;
+    margin-top: 12.5%;
+    left: 15%;
+    opacity: 0;
+}
+#section2>#download1:hover{
+    opacity: 1;
+}
+#section2>#download2{
+    position: absolute;
+    margin-top: 18%;
+    left: 15%;
+}
+#section2>#star{
+    position: absolute;
+    left: 62%;
+    margin-top: -9%;
+    z-index: 999;
+}
+#section2>#screen{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+#section2>#description{
+    position: absolute;
+   margin-top: 16%;
+    margin-left: 32%;
+}
+#section2>#left_baloon{
+    position: absolute;
+    margin-left: 45%;
+    top: 31%;
+    rotate: calc(-40deg);
+}
+#section2>#center_baloon{
+    position: absolute;
+    top: 30.2%;
+    margin-left: 47.5%;
+    -webkit-animation: baloon 5s cubic-bezier(0.19,1,0.22,1) 0s infinite both;
+            animation: baloon 5s cubic-bezier(0.19,1,0.22,1) 0s infinite both;
+}
+@-webkit-keyframes baloon{
+    0%{-webkit-transform: translateY(10px) rotateZ(5deg);transform: translateY(10px) rotateZ(5deg);
+
+    }
+    50%{-webkit-transform: translateY(0px) rotateZ(0deg);transform: translateY(0px) rotateZ(0deg);
+        
+    }
+    100%{-webkit-transform: translateY(10px) rotateZ(-2deg);transform: translateY(10px) rotateZ(-2deg);
+        
+    }
+}
+@keyframes baloon{
+    0%{-webkit-transform: translateY(10px) rotateZ(5deg);transform: translateY(10px) rotateZ(5deg);
+
+    }
+    50%{-webkit-transform: translateY(0px) rotateZ(0deg);transform: translateY(0px) rotateZ(0deg);
+        
+    }
+    100%{-webkit-transform: translateY(10px) rotateZ(-2deg);transform: translateY(10px) rotateZ(-2deg);
+        
+    }
+}
+#section2>#right_baloon{
+    position: absolute;
+    margin-left: 50.5%;
+    top: 31%;
+    rotate: calc(40deg);
+}
+#section2>#nav_part2{
+    height: 10%;
+    width: 30%;
+    margin-left: 67%;
+    margin-top: -5%;
+    border-bottom: 2px solid black;
+}
+#section2>#nav_part1{
+    height: 17%;
+    width: 34%;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+   
+}
+#section2>#nav_part1>img{
+    height: 2%;
+    width: 10%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#section2>#nav_part1>h3{
+    position: absolute;
+    left: 15%;
+    font-size: 2vw;
+    
+    font-weight: 900;
+    margin-top: -5%;
+    font-family: 'Alkalami', serif;
+}
+
+.swiper {
+    width: 25%;
+    height: 8%;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 37%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #section2>#nav_part2>a{
+    text-decoration: none;
+   margin: 40px;
+   color: black;
+   font-size: 1.5vw;
+  }
+  #section2>#nav_part2>a:hover{
+    background-color: white;
+    border-radius: 50px;
+  }
+  #section2>#right_side{
+   
+    height: 9%;
+    width: 20%;
+    position: absolute;
+    left: 70%;
+  }
+  #section2>#right_side>h2{
+    text-align: center;
+    font-size: 2vw;
+  }
+  #section2>#right_side>#comma{
+    position: absolute;
+
+  }
+  #section2>#right_side>p{
+    position: absolute;
+   padding-left: 8%;
+  }
+  #section2>#right_side>#comma2{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -1%;
+  }
+  #section2>#right_side>#p2{
+     position: absolute;
+     padding-left: 8%;
+     margin-top: 18%;
+  }
+  #section2>#right_side>#comma3{
+    position: absolute;
+    margin-top: 40%;
+  }
+  #section2>#right_side>#p3{
+    position: absolute;
+    margin-top: 40%;
+  }
+  #section2>#right_side>h4{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 10%;
+    color: green;
+  }
+  #section2>#right_side>h4:hover{
+    color: white;
+  }
+  #section2>#right_side>#indicator{
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 55%;
+  }
+  #section2>#mountain1{
+    width: 100vw;
+    position: absolute;
+    margin-top: 20%;
+  }
+
+
+
+
+  #section3>#mountain2{
+   height: 30%;
+   width: 100vw;
+   background-color:  #a68f58;;
+  }
+  #section3>#mountain2>#one{
+       position: absolute;
+       margin-left: 15%;
+  }
+  #section3>#mountain2>#two{
+    position: absolute;
+    margin-left: 40%;
+}
+#section3>#mountain2>#three{
+    position: absolute;
+    margin-left: 60%;
+}
+#section3>#mountain2>#four{
+    position: absolute;
+    margin-left: 80%;
+}
+#section3>#robot{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 37%;
+    z-index: 9;
+}
+#section3>#nav_left{
+    border-bottom: 2px solid black;
+    position: absolute;
+   width: 30%;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+#section3>#left_hand{
+    position: absolute;
+    margin-left: 45.5%;
+    margin-top: 3%;
+    z-index: 9;
+}
+#section3>#right_hand{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 3.5%;
+}
+#section3>#white_page{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+    rotate: calc(-5deg);
+}
+#section3>#white_page1{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 20%;
+    rotate: calc(-5deg);
+    width: 18%;
+    height: 8%;
+    text-align: center;
+   font-size: 1.1vw;
+}
+#section3>#yellow_page{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 18%;
+}
+#section3>#wall{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#section3>#nav_right{
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 30%;
+    margin-left: 60%;
+    margin-top: 4%;
+}
+#section3>#nav_right>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    margin: 40px;
+}
+#section3>#nav_right>a:hover{
+    background-color: white;
+    border-radius: 50px;
+}
+#section3>#right_div{
+    
+    position: absolute;
+    height: 5%;
+    width: 20%;
+    margin-left: 65%;
+   margin-top: 7%;
+}
+#section3>#right_div>h1{
+    text-align: center;
+}
+#section3>#right_div>p{
+    position: absolute;
+    margin-top: 10px;
+}
+#section3>#logo{
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 13%;
+}
+#section3>h4{
+    color: rgb(70, 207, 70);
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 33%;
+}
+#section3>h4:hover{
+    color: white;
+}
+
+
+
+#section4>#nav_black{
+    width: 100vw;
+   
+    background-color:  #363635;
+    
+}
+#nav_black>#second_black{
+    position: absolute;
+    left: 4%;
+}
+#nav_black>#third_black{
+    position: absolute;
+    left: 8%;
+}
+#nav_black>#four_black{
+    position: absolute;
+    left: 8%;
+}
+#nav_black>#five_black{
+    position: absolute;
+    left: 12%;
+}
+#nav_black>#six_black{
+    position: absolute;
+    left: 16%;
+}
+#nav_black>#seven_black{
+    position: absolute;
+    left: 20%;
+}
+#nav_black>#eight_black{
+    position: absolute;
+    left: 24%;
+}
+#nav_black>#nine_black{
+    position: absolute;
+    left: 24%;
+}
+#nav_black>#ten_black{
+    position: absolute;
+    left: 28%;
+}
+#nav_black>#ele_black{
+    position: absolute;
+    left: 32%;
+}
+#nav_black>#twe_black{
+    position: absolute;
+    left: 36%;
+}
+#nav_black>#thir_black{
+    position: absolute;
+    left: 40%;
+}
+#nav_black>#fourteen_black{
+    position: absolute;
+    left: 40%;
+}
+#nav_black>#fifteen_black{
+    position: absolute;
+    left: 44%;
+}
+#nav_black>#sixteen_black{
+    position: absolute;
+    left: 48%;
+}
+#nav_black>#seventeen_black{
+    position: absolute;
+    left: 52%;
+}
+#nav_black>#eighteen_black{
+    position: absolute;
+    left: 56%;
+}
+#nav_black>#ninteen_black{
+    position: absolute;
+    left: 60%;
+}
+#nav_black>#twinty_black{
+    position: absolute;
+    left: 64%;
+}
+#nav_black>#twione_black{
+    position: absolute;
+    left: 68%;
+}
+#nav_black>#twitwo_black{
+    position: absolute;
+    left: 71.5%;
+}
+#nav_black>#twithree_black{
+    position: absolute;
+    left: 75%;
+}
+#nav_black>#twifour_black{
+    position: absolute;
+    left: 79%;
+}
+#nav_black>#twifive_black{
+    position: absolute;
+    left: 83%;
+}
+#nav_black>#twisix_black{
+    position: absolute;
+    left: 86.5%;
+}
+#nav_black>#twiseven_black{
+    position: absolute;
+    left: 90%;
+}
+#nav_black>#twieight_black{
+    position: absolute;
+    left: 90%;
+}
+#nav_black>#twinine_black{
+    position: absolute;
+    left: 94%;
+}
+#nav_bright>#first_bright{
+    position: absolute;
+   
+}
+#nav_bright>#second_bright{
+    position: absolute;
+    left: 4%;
+   
+}
+#nav_bright>#third_bright{
+    position: absolute;
+    left: 9%;
+   
+}
+#nav_bright>#four_bright{
+    position: absolute;
+    left: 14%;
+}
+#nav_bright>#five_bright{
+    position: absolute;
+    left: 19%;
+}
+#nav_bright>#six_bright{
+    position: absolute;
+    left: 24%;
+}
+#nav_bright>#seven_bright{
+    position: absolute;
+    left: 29%;
+}
+#nav_bright>#eight_bright{
+    position: absolute;
+    left: 34%;
+}
+#nav_bright>#nine_bright{
+    position: absolute;
+    left: 38.5%;
+}
+#nav_bright>#ten_bright{
+    position: absolute;
+    left: 43%;
+}
+#nav_bright>#ele_bright{
+    position: absolute;
+    left: 47.5%;
+}
+#nav_bright>#twe_bright{
+    position: absolute;
+    left: 52%;
+}
+#nav_bright>#thirteen_bright{
+    position: absolute;
+    left: 57%;
+}
+#nav_bright>#fourteen_bright{
+    position: absolute;
+    left: 62%;
+}
+#nav_bright>#fifteen_bright{
+    position: absolute;
+    left: 67%;
+}
+#nav_bright>#sixteen_bright{
+    position: absolute;
+    left: 72%;
+}
+#nav_bright>#seventeen_bright{
+    position: absolute;
+    left: 77%;
+}
+#nav_bright>#eightteen_bright{
+    position: absolute;
+    left: 81.5%;
+}
+#nav_bright>#nineteen_bright{
+    position: absolute;
+    left: 86%;
+}
+#nav_bright>#twinty_bright{
+    position: absolute;
+    left: 90.5%;
+}
+#nav_bright>#twintyone_bright{
+    position: absolute;
+    left: 94.5%;
+}
+#section4>#anchor{
+    position: absolute;
+    left: 13%;
+    margin-top: 10%;
+}
+#section4>#octopus{
+    position: absolute;
+    margin-top: 40%;
+    left: 60%;
+   
+}
+#section4>#overlay{
+   
+    width: 100vw;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+}
+#wave>#second_wave{
+   position: absolute;
+   left: 6%;
+}
+#wave>#third_wave{
+    position: absolute;
+    left: 12%;
+ }
+ #wave>#four_wave{
+    position: absolute;
+    left: 18%;
+ }
+ #wave>#five_wave{
+    position: absolute;
+    left: 24%;
+ }
+ #wave>#six_wave{
+    position: absolute;
+    left: 30%;
+ }
+ #wave>#seven_wave{
+    position: absolute;
+    left: 36%;
+ }
+ #wave>#eight_wave{
+    position: absolute;
+    left: 42%;
+ }
+ #wave>#nine_wave{
+    position: absolute;
+    left: 48%;
+ }
+ #wave>#ten_wave{
+    position: absolute;
+    left: 54%;
+ }
+ #wave>#ele_wave{
+    position: absolute;
+    left: 60%;
+ }
+ #wave>#twe_wave{
+    position: absolute;
+    left: 66%;
+ }
+ #wave>#thirteen_wave{
+    position: absolute;
+    left: 72%;
+ }
+ #wave>#fourteen_wave{
+    position: absolute;
+    left: 78%;
+ }
+ #wave>#fifteen_wave{
+    position: absolute;
+    left: 83%;
+ }
+ #wave>#sixteen_wave{
+    position: absolute;
+    left: 89%;
+ }
+ #wave>#seventeen_wave{
+    position: absolute;
+    left: 94%;
+ }
+ #section4>#envelope_bottom{
+    position: absolute;
+    margin-top: 30%;
+    left: 27%;
+    z-index: 9;
+ }
+ #section4>#envelope_out_top{
+    position: absolute;
+    margin-top: 22%;
+    left: 27%;
+    z-index: 9;
+ }
+ #section4>#letter{
+    position: absolute;
+    margin-top: 15%;
+   left: 29%;
+   z-index: 8;
+   height: 9%;
+   width: 28%;
+   
+ }
+ #section4>#letter1{
+    position: absolute;
+    margin-top: 15%;
+   left: 29%;
+   z-index: 8;
+   height: 9%;
+   width: 28%;
+   background-color: transparent;
+   
+ }
+ #section4>#letter1 h2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+ }
+ #section4>#letter1 h4{
+    text-align: center;
+    margin-top: 60px;
+ }
+ #section4>#get_in{
+    position: absolute;
+    margin-top: 18%;
+    left: 21%;
+ }
+ #section4>#letter1 #but{
+    text-align: center;
+    color: white;
+    position: absolute;
+    background-color:  #95d91a;
+    left: 42%;
+    margin-top: 20px;
+   font-size: 1.5vw;
+    z-index: 999;
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    
+ }
+  #section4>#envelope_cover{
+    position: absolute;
+    margin-top: 7.3%;
+    left: 27%;
+    
+ }
+ #section4>#envelope_in{
+    position: absolute;
+    margin-top: 20%;
+    left: 27%;
+    
+ }
+ #section4>#overlay>#left_nav{
+    height: 2px;
+    background-color: black;
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    margin-top: 2%;
+ }
+ #section4>#overlay>img{
+    position: absolute;
+    margin-top: -1%;
+   left: 10%;
+ }
+ #section4>#overlay>#right_nav{
+    height: 2px;
+    background-color: black;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    margin-top: 2%;
+ }
+ #section4>#overlay>a{
+    text-decoration: none;
+    color: #5a5a57;
+   margin: 20px;
+   font-size: 1.5vw;
+    left: 50%;
+    position: relative;
+   
+ }
+ #section4>#overlay a:hover{
+    background-color: white;
+    border-radius: 50px;
+}
+#section4>#overlay>h2{
+    color: #5a5a57;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 70%;
+    font-size: 2.5vw;
+}
+#section4>#overlay>p{
+    color: #5a5a57;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 70%;
+    font-size: 1.2vw;
+}
+#section4>#overlay>#phone{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 58%;
+   width: 2%;
+}
+#section4>#overlay>h5{
+    color: white;
+    position: absolute;
+    margin-top: 10.2%;
+    margin-left: 71.5%;
+    font-size: 1.3vw;
+}
+#section4>#overlay>#map{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 58%;
+    width: 2%;
+}
+#section4>#overlay>h4{
+    color: white;
+    position: absolute;
+    margin-top: 14.2%;
+    margin-left: 71.5%;
+    font-size: 1.3vw;
+}
+#section4>#overlay>h1{
+    color: #5a5a57;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 71.5%;
+    font-size: 2.3vw;
+}
+#section4>#overlay>h3{
+    color: #5a5a57;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 71.5%;
+    font-size: 1.2vw;
+}
+#section4>#overlay>#facebook{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 62%;
+    width: 2%;
+   background-color: #5a5a57;
+}
+#section4>#overlay>#google{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 68%;
+    width: 2%;
+   background-color: #5a5a57;
+}
+#section4>#overlay>#linkedin{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 62%;
+    width: 2%;
+   background-color: #5a5a57;
+}
+#section4>#overlay>#twitter{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 68%;
+    width: 2%;
+   background-color: #5a5a57;
+}
+
+
+
+
+ 
+
+@media only screen and (min-width: 600px){
+    #section1{
+        
+    }
+}
+
+
+
